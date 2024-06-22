@@ -217,8 +217,15 @@ h5 {
 }
 
 .box-logo {
-    display: block;
-    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    -webkit-transform: translateX(20px) translateY(110%);
+}
+
+.box-logo .box-logo-text{
+    color: #393939;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .box-primary-nav-trigger {
